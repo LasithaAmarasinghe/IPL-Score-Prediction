@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPL Score Predictor</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #e3e8ed;
+            padding: 20px;
+        }
+        .prediction-container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .result {
+            text-align: center;
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #f1f8ff;
+            border-radius: 5px;
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="prediction-container">
+            <div class="header">
+                <h1>IPL Score Predictor</h1>
+                
+            </div>
+            
+            <form action="/predict" method="post">
+                <div class="mb-3">
+                    <label for="venue" class="form-label">Select Venue:</label>
+                    <select class="form-select" id="venue" name="venue" required>
+                        <option value="" disabled {% if not selected_venue %}selected{% endif %}>Choose venue...</option>
+                        {% for venue in venues %}
+                        <option value="{{ venue }}" {% if selected_venue == venue %}selected{% endif %}>{{ venue }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                
+                <div class="mb-3">
+                    <label for="batting_team" class="form-label">Select Batting Team:</label>
+                    <select class="form-select" id="batting_team" name="batting_team" required>
+                        <option value="" disabled {% if not selected_batting_team %}selected{% endif %}>Choose batting team...</option>
+                        {% for team in batting_teams %}
+                        <option value="{{ team }}" {% if selected_batting_team == team %}selected{% endif %}>{{ team }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                
+                <div class="mb-3">
+                    <label for="bowling_team" class="form-label">Select Bowling Team:</label>
+                    <select class="form-select" id="bowling_team" name="bowling_team" required>
+                        <option value="" disabled {% if not selected_bowling_team %}selected{% endif %}>Choose bowling team...</option>
+                        {% for team in bowling_teams %}
+                        <option value="{{ team }}" {% if selected_bowling_team == team %}selected{% endif %}>{{ team }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                
+                <div class="d-grid">
+                    <button type="submit" class="btn btn-primary">Predict Score</button>
+                </div>
+            </form>
+
+            {% if prediction %}
+            <div class="result mt-4">
+                <p>Predicted Score: <strong>{{ prediction }}</strong></p>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>
