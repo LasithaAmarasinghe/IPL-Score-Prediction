@@ -1,3 +1,3 @@
 # IPL-Score-Prediction
 
-![image](https://github.com/user-attachments/assets/f2eeca01-41da-4c43-9c79-0c6f91656be6)
+![image](https://github.com/user-attachments/assets/c6cc1b46-a7ed-4048-9431-6b6866ce20c6)
