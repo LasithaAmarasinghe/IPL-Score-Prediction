@@ -19,5 +19,5 @@ Here’s a quick demo of the **IPL-Score-Predictor**:
 
 ### 1️⃣ Clone the Repository  
 ```sh
-git clone https://github.com/your-username/IPL-Score-Predictor.git
+git clone https://github.com/LasithaAmarasinghe/IPL-Score-Prediction.git
 cd IPL-Score-Predictor
