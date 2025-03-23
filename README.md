@@ -19,12 +19,21 @@ Here’s a quick demo of the **IPL-Score-Predictor**:
 
 * Jupyter Notebook / [Google Colab](https://colab.research.google.com/)
 * Python 3+
+* Tensorflow  - `pip install tensorflow`
 * Python packages
   * Pandas - `pip install pandas`
   * Numpy - `pip install numpy`
   * Scikit-learn - `pip install scikit-learn`
   * Seaborn - `pip install seaborn`
-    
+
+![Python](https://img.shields.io/badge/python-3670A0?logo=python&logoColor=FFFF00)
+![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?logo=jupyter&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?logo=TensorFlow&logoColor=white)
+![Pandas](https://img.shields.io/badge/pandas_-%20green?logo=pandas)
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?logo=numpy&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikit-learn&logoColor=FFFFFF)
+![seaborn](https://img.shields.io/badge/seaborn_-&logoColor=blue)
+
 ## 🛠️ Setup Instructions  
 
 ### 1️⃣ Clone the Repository  
