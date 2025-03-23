@@ -11,7 +11,7 @@ Here’s a quick demo of the **IPL-Score-Predictor**:
 [![▶️ Watch the demo](https://github.com/LasithaAmarasinghe/IPL-Score-Prediction/raw/main/static/thumbnail.png)](https://vimeo.com/1068352477/3408347730)
 
 ## 🚀 Features  
-- User-friendly **web interface** built with HTML, CSS, and Bootstrap.  
+- User-friendly **web interface** built with HTML, CSS, and Flask.  
 - **Machine Learning model** trained on IPL data to predict match scores.  
 - **Flask backend** for handling requests and making predictions.
 
