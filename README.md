@@ -42,7 +42,20 @@ Here’s a quick demo of the **IPL-Score-Predictor**:
 
 ## 🛠️ Setup Instructions  
 
-### 1️⃣ Clone the Repository  
-```sh
-git clone https://github.com/LasithaAmarasinghe/IPL-Score-Prediction.git
-cd IPL-Score-Prediction
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/LasithaAmarasinghe/IPL-Score-Prediction.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd IPL-Score-Prediction
+   ```
+3. Install dependencies:
+   ```sh
+   pip install -r requirements.txt
+   ```
+4. Run the Flask application:
+   ```sh
+   python app.py
+   ```
+5. Open 🌍 `http://127.0.0.1:5000/` in your browser to access the website. 
