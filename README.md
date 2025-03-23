@@ -41,7 +41,7 @@ Here’s a quick demo of the **IPL-Score-Predictor**:
 ![css3](https://img.shields.io/badge/css3-8A2BE2.svg?logo=css3&logoColor=white)
 
 
-## Data
+## 📈 Data
 
 Data used are from the IPL tournaments from 2008-2017.
 
