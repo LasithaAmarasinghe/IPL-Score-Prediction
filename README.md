@@ -15,7 +15,7 @@ Here’s a quick demo of the **IPL-Score-Predictor**:
 - **Machine Learning model** trained on IPL data to predict match scores.  
 - **Flask backend** for handling requests and making predictions.
 
-## Technologies/ Tools
+## 🛠️ Technologies/ Tools
 
 * Jupyter Notebook / [Google Colab](https://colab.research.google.com/)
 * Python 3+
@@ -40,7 +40,7 @@ Here’s a quick demo of the **IPL-Score-Predictor**:
 ![css3](https://img.shields.io/badge/css3-8A2BE2.svg?logo=css3&logoColor=white)
 ![flask](https://img.shields.io/badge/flask_-black)
 
-## 🛠️ Setup Instructions  
+## 🚀 Setup Instructions  
 
 1. Clone the repository:
    ```sh
