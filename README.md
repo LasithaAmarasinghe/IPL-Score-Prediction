@@ -45,7 +45,7 @@ Here’s a quick demo of the **IPL-Score-Predictor**:
 Data used are from the IPL tournaments from 2008-2017.
 
 You can download the data set used in this project here:
-* [IPL data.csv](https://github.com/LasithaAmarasinghe/IPL-Score-Prediction/blob/af2fcbcb2e5e7680be7a7a1985b3b0e90f043cc0/ipl_data.csv)
+* [IPL data.csv](https://github.com/LasithaAmarasinghe/IPL-Score-Prediction/blob/main/ipl_data.csv)
 
 ## 🚀 Setup Instructions  
 
