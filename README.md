@@ -40,6 +40,13 @@ Here’s a quick demo of the **IPL-Score-Predictor**:
 ![css3](https://img.shields.io/badge/css3-8A2BE2.svg?logo=css3&logoColor=white)
 ![flask](https://img.shields.io/badge/flask_-black)
 
+## Data
+
+Data used are from the IPL tournaments from 2008-2017.
+
+You can download the data set used in this project here:
+* [IPL data.csv](https://github.com/LasithaAmarasinghe/IPL-Score-Prediction/blob/af2fcbcb2e5e7680be7a7a1985b3b0e90f043cc0/ipl_data.csv)
+
 ## 🚀 Setup Instructions  
 
 1. Clone the repository:
@@ -58,4 +65,5 @@ Here’s a quick demo of the **IPL-Score-Predictor**:
    ```sh
    python app.py
    ```
-5. Open 🌍 `http://127.0.0.1:5000/` in your browser to access the website. 
+5. Open 🌍 `http://127.0.0.1:5000/` in your browser to access the website.
+
