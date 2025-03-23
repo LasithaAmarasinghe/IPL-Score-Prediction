@@ -15,6 +15,16 @@ Here’s a quick demo of the **IPL-Score-Predictor**:
 - **Machine Learning model** trained on IPL data to predict match scores.  
 - **Flask backend** for handling requests and making predictions.
 
+## Technologies/ Tools
+
+* Jupyter Notebook / [Google Colab](https://colab.research.google.com/)
+* Python 3+
+* Python packages
+  * Pandas - `pip install pandas`
+  * Numpy - `pip install numpy`
+  * Scikit-learn - `pip install scikit-learn`
+  * Seaborn - `pip install seaborn`
+    
 ## 🛠️ Setup Instructions  
 
 ### 1️⃣ Clone the Repository  
