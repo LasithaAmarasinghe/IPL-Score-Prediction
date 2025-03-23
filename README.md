@@ -68,3 +68,6 @@ You can download the data set used in this project here:
    ```
 5. Open 🌍 `http://127.0.0.1:5000/` in your browser to access the website.
 
+## License
+ 
+ * This project is licensed under the MIT License. See the [LICENSE](MIT-LICENSE.txt) file for details.
