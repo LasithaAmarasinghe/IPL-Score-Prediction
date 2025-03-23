@@ -68,6 +68,26 @@ You can download the data set used in this project here:
    ```
 5. Open 🌍 `http://127.0.0.1:5000/` in your browser to access the website.
 
+## 📝 How This Works
+
+### 1. **User Input**
+- The user selects:
+  - **Venue** of the match
+  - **Batting Team**
+  - **Bowling Team**
+- These inputs are provided through a web form.
+
+### 2. **Data Processing**
+- The selected inputs are encoded using pre-trained encoders.
+- The encoded values are then scaled using a preloaded scaler to ensure the model receives properly formatted data.
+
+### 3. **Prediction**
+- The processed data is fed into the pre-trained machine learning model that predicts the score.
+- The model outputs the estimated score based on historical IPL data.
+
+### 4. **Result Display**
+- The predicted score is displayed on the webpage.
+
 ## 📋 License
  
  * This project is licensed under the MIT License. See the [LICENSE](MIT-LICENSE.txt) file for details.
